@@ -10,6 +10,7 @@ class Screen {
 protected:
 	int framesCounter = 0;
 	int finishScreen = 0;
+	Font font = { 0 };
 
 public:
 	int FinishScreen() const { return finishScreen; }
@@ -18,10 +19,15 @@ public:
 	{    
 		framesCounter = 0;
 		finishScreen = 0;
+		font = LoadFont("resources/mecha.png");
 	}
 
 	virtual void UpdateScreen(){}
 	virtual void DrawScreen(){}
-	virtual void UnloadScreen(){}
+
+	virtual void UnloadScreen()
+	{
+		UnloadFont(font);
+	}
 };
 #endif // SCREENS_H

@@ -20,12 +20,10 @@ public:
 	void DrawScreen() override 
 	{
 		// TODO: Draw TITLE screen here!
-		DrawText("TITLE SCREEN", 20, 20, 40, DARKGREEN);
+		DrawTextEx(font, "BLOCKS", Vector2 { 100, 80 }, 160, 10, MAROON);   // Draw Title
 
 		if ((framesCounter / 30) % 2 == 0) DrawText("PRESS [ENTER] to START", GetScreenWidth() / 2 - MeasureText("PRESS [ENTER] to START", 20) / 2, GetScreenHeight() / 2 + 60, 20, DARKGRAY);
 	}
-
-	void UnloadScreen() override {}
 };
 
 #endif

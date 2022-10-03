@@ -13,7 +13,6 @@
 //----------------------------------------------------------------------------------
 enum Screens { NONE, LOGO, TITLE, OPTIONS, GAMEPLAY, ENDING };
 Screens currentScreen = Screens::LOGO;
-Font font = { 0 };
 Music music = { 0 };
 Sound fxCoin = { 0 };
 

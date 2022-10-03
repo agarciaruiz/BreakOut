@@ -19,12 +19,10 @@ public:
 
 	void DrawScreen() override 
 	{
-		DrawText("ENDING SCREEN", 20, 20, 40, DARKBLUE);
+		DrawTextEx(font, "GAME FINISHED", Vector2 { 80, 100 }, 80, 6, MAROON);
 
 		if ((framesCounter / 30) % 2 == 0) DrawText("PRESS [ENTER] TO PLAY AGAIN", GetScreenWidth() / 2 - MeasureText("PRESS [ENTER] TO PLAY AGAIN", 20) / 2, GetScreenHeight() / 2 + 80, 20, GRAY);
 	}
-
-	void UnloadScreen() override {}
 };
 
 #endif
