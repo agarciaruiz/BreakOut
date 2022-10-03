@@ -1,6 +1,6 @@
 #ifndef LOGOSCREEN_H
 #define LOGOSCREEN_H
-#include "screen.h"
+#include "screen.hpp"
 
 class LogoScreen : public Screen {
 private:

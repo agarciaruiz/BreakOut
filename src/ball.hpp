@@ -2,8 +2,8 @@
 #define BALL_H
 
 #include "raylib.h"
-#include "player.h"
-#include "brick.h"
+#include "player.hpp"
+#include "brick.hpp"
 
 class Ball {
 private:

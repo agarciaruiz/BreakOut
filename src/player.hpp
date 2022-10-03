@@ -4,7 +4,7 @@
 
 
 #include "raylib.h"
-#include "screen.h"
+#include "screen.hpp"
 
 class Player {
 private:

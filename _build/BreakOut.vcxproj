@@ -170,17 +170,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\ending_screen.h" />
-    <ClInclude Include="..\src\game_screen.h" />
-    <ClInclude Include="..\src\logo_screen.h" />
-    <ClInclude Include="..\src\screen.h" />
-    <ClInclude Include="..\src\challenge1.h" />
-    <ClInclude Include="..\src\title_screen.h" />
-    <ClInclude Include="..\src\options_screen.h" />
+    <ClInclude Include="..\src\ball.hpp" />
+    <ClInclude Include="..\src\ending_screen.hpp" />
+    <ClInclude Include="..\src\game_screen.hpp" />
+    <ClInclude Include="..\src\logo_screen.hpp" />
+    <ClInclude Include="..\src\screen.hpp" />
+    <ClInclude Include="..\src\challenge1.hpp" />
+    <ClInclude Include="..\src\title_screen.hpp" />
+    <ClInclude Include="..\src\options_screen.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\brick.h" />
-    <ClCompile Include="..\src\player.h" />
+    <ClCompile Include="..\src\brick.hpp" />
+    <ClCompile Include="..\src\player.hpp" />
     <ClCompile Include="..\src\challenge1.cpp" />
   </ItemGroup>
   <ItemGroup>

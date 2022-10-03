@@ -1,11 +1,11 @@
 #ifndef CHALLENGE1_H
 #define CHALLENGE1_H
 
-#include "logo_screen.h"
-#include "title_screen.h"
-#include "game_screen.h"
-#include "ending_screen.h"
-#include "options_screen.h"
+#include "logo_screen.hpp"
+#include "title_screen.hpp"
+#include "game_screen.hpp"
+#include "ending_screen.hpp"
+#include "options_screen.hpp"
 
 //----------------------------------------------------------------------------------
 // Shared Variables Definition (global)

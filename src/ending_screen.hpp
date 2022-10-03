@@ -1,6 +1,6 @@
 #ifndef ENDINGSCREEN_H
 #define ENDING_H
-#include "screen.h"
+#include "screen.hpp"
 
 class EndingScreen : public Screen {
 private:

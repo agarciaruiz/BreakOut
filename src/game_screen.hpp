@@ -3,10 +3,10 @@
 
 #define BRICKS_POSITION_Y       50
 
-#include "screen.h"
-#include "player.h"
-#include "ball.h"
-#include "brick.h"
+#include "screen.hpp"
+#include "player.hpp"
+#include "ball.hpp"
+#include "brick.hpp"
 
 class GameScreen : public Screen {
 private:

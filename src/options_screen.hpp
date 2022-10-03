@@ -1,6 +1,6 @@
 #ifndef OPTIONSCREEN_H
 #define OPTIONSCREEN_H
-#include "screen.h"
+#include "screen.hpp"
 
 class OptionsScreen : public Screen {
 private:

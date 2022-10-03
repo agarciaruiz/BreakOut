@@ -1,6 +1,6 @@
 #ifndef TITLE_SCREEN_H
 #define TITLE_SCREEN_H
-#include "screen.h"
+#include "screen.hpp"
 
 class TitleScreen : public Screen {
 private:

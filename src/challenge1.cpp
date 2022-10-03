@@ -1,5 +1,5 @@
 #include "raylib.h"
-#include "challenge1.h"
+#include "challenge1.hpp"
 
 //----------------------------------------------------------------------------------
 // Main entry point

@@ -9,25 +9,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\screen.h">
+    <ClInclude Include="..\src\screen.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\challenge1.h">
+    <ClInclude Include="..\src\challenge1.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\options_screen.h">
+    <ClInclude Include="..\src\options_screen.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\game_screen.h">
+    <ClInclude Include="..\src\game_screen.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\ending_screen.h">
+    <ClInclude Include="..\src\ending_screen.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\title_screen.h">
+    <ClInclude Include="..\src\title_screen.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\logo_screen.h">
+    <ClInclude Include="..\src\logo_screen.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ball.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -35,13 +38,10 @@
     <ClCompile Include="..\src\challenge1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\player.h">
+    <ClCompile Include="..\src\player.hpp">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\brick.h">
+    <ClCompile Include="..\src\brick.hpp">
       <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
